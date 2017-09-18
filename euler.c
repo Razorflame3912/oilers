@@ -27,7 +27,7 @@ int smallest_mult(){
 
 int biggiePrime(){
   int test;
-  int counter;
+  int counter = 0;
   for(test = 2;counter < 10001;test++){
 
     int isPrime = 1;
@@ -45,6 +45,7 @@ int biggiePrime(){
 
     
   }
+  return test-1;
 
 }
 
